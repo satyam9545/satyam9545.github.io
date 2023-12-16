@@ -1,0 +1,64 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-warning mb-5 border-bottom">CONTACT US</h1>
+    <div class="row text-white mb-5">
+        <p class="mx-auto mb-5">
+            Do you have any question? Please do not hesitate to
+            contacrt. I will come back to you within a matter of
+            hours to help you.
+        </p>
+        <div class="col-sm-9 mb-5">
+            <form action="">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName"> Your Name</label>
+                        <input type="text" class="form-control" id="inputName" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Your Email *</label>
+                        <input type="email" class="form-control" id="inputEmail" required>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="inputSubject">Your Subject</label>
+                        <input type="text" class="form-control" id="inputEmail" required>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="inputTextarea">Your message *</label>
+                        <textarea class="form-control col-md-12" name="" id="inputTextarea" required></textarea>
+                    </div>
+                </div>
+                <a href="https://wa.me/8527362067/" class="btn btn-primary" type="submit">send</a>
+                
+            </form>
+        </div>
+        <div class="col-sm-3 text-crnter">
+            <ul>
+                <li>
+                    <i class="fas fa-map-marker-alt fa-2x i-color"></i>
+                    <p>Rohini Sector-20, Delhi, India</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone mt-4 fa-2x i-color"></i>
+                    <p>+91 8527362067</p>
+                </li>
+                <li>
+                    <i class="fas fa-envelope mt-4 fa-2x i-color"></i>
+                    <p>satyamkr9545@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="text-center">
+    <a href="https://twitter.com/CODE_IS_GAME" target="_blank"><i class="fab fa-twitter i-color mr-3"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100052669637495&mibextid=ZbWKwL" target="_blank"><i
+            class="fab fa-facebook-f i-color mr-3"></i></a>
+    <a href="https://www.instagram.com/code_is_game/" target="_blank"><i class="fab fa-instagram i-color mr-3"></i></a>
+    <!-- <a href="#" target="_blank"><i class="fab fa-dribbble i-color mr-3"></i></a> -->
+    <a href="https://wa.me/8527362067" target="_blank"><i class="fa-brands fa-whatsapp i-color mr-3"></i></a>
+</div>
+
+
+{% endblock content %}

@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+/* Font */
+.ff{
+    font-family: 'Satisfy', cursive;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container-fluid{
+    min-height: 100%;
+}

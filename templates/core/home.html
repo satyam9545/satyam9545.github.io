@@ -1,0 +1,33 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/images/satyam.jpg' %}" alt="ProfilePic" class="img-thumbnail" width="250px"
+            height="150px">
+    </div>
+
+    <div class="text-white mt-5 mx-5 text-justify">
+        <h1 class="font-weight-bold " style="font-family: 'Satisfy', cursive;">Hello,</h1>
+        <div class="px-4" style="line-height: 2rem;">
+            <p style="text-indent: 100px;">
+                My self <b class="text-warning">Satyam Kumar</b> I’m a skilled <b class="text-warning">full-stack web
+                    developer</b> with expertise in Python, Django, Tkinter, MongoDB, MySQL, HTML, CSS, and JavaScript.
+                My passion for creating high-quality web applications that meet the needs of clients and users also know
+                Python allows me to create powerful and efficient backend systems, while my experience with web
+                frameworks like Django allows me to build robust and scalable web applications. Additionally, my
+                proficiency in Tkinter allows me to create intuitive and user-friendly graphical user interfaces. With
+                experience in database management systems like MongoDB and MySQL, I have a strong foundation in data
+                management and analysis. My knowledge of HTML, CSS, and JavaScript allows me to create visually
+                appealing and interactive web experiences. Overall, I’m a well-rounded full-stack developer who is
+                skilled in all aspects of web development.
+            </p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="https://wa.me/8527362067" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+        <a href="/contact/" class="btn btn-outline-info my-3">Contact</a>
+    </div>
+
+</div>
+{% endblock content %}

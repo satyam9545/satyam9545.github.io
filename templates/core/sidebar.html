@@ -1,0 +1,14 @@
+{% load static %}
+<div class="border-right border-warning h-100">
+    <div class="text-center">
+        <img src="{% static 'core/images/pic.png' %}" alt="ProfilePic" class="img-fluid rounded-circle mt-5" width="120px" height="120px">
+    <h3 class="text-white mt-3" style="font-family: 'Satisfy', cursive;">Satyam Kumar</h3>
+    </div>
+    <hr class="border-light">
+    <nav class="nav flex-column text-center">
+        <a href="/" class="nav-link {{home}}">Home</a>
+        <a href="/serv/services/" class="nav-link {{services}}">Services</a>
+        <a href="/edu/skill/" class="nav-link {{skill}}">Skill</a>
+        <a href="/contact/" class="nav-link {{contact}}">Contact</a>
+    </nav>
+</div>
